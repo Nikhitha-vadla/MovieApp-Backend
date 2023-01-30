@@ -85,6 +85,18 @@ public final class BookingTransformer {
 
         return bookingsSummaryResponse;
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     private static BookingCustomerInfoType toBookingCustomerInfo(final UserEntity customerEntity) {
         return new BookingCustomerInfoType().firstName(customerEntity.getFirstName())
