@@ -20,6 +20,13 @@ public final class ArtistTransformer {
         for (ArtistEntity artistEntity : searchResult.getPayload()) {
             artistsSummaryResponse.addArtistsItem(toArtistType(artistEntity));
         }
+        
+        
+        
+        
+        
+        
+        
 
         return artistsSummaryResponse;
     }
@@ -44,6 +51,12 @@ public final class ArtistTransformer {
         artistEntity.setWikiUrl(artistRequest.getWikiUrl());
         return artistEntity;
     }
+    
+    
+    
+    
+    
+    
 
     public static ArtistEntity toEntity(UpdateArtistRequest artistRequest) {
         ArtistEntity artistEntity = new ArtistEntity();
